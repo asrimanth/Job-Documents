@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.19)  19 SEP 2021 12:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.19)  24 SEP 2021 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,12 +527,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
+ (./Demo_101.out) (./Demo_101.out)
 \@outlinefile=\write3
 \openout3 = `Demo_101.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -596,6 +593,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
  line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 17.
+
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 17.
 
@@ -652,19 +650,13 @@ age=dflt;"
  [1
 
 ] (./Demo_101.aux)
-
-Package rerunfilecheck Warning: File `Demo_101.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Demo_101.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Demo_101.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14801 strings out of 476919
- 271977 string characters out of 5821840
- 617691 words of memory out of 5000000
+ 14805 strings out of 476919
+ 272029 string characters out of 5821840
+ 617917 words of memory out of 5000000
  34601 multiletter control sequences out of 15000+600000
  404118 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

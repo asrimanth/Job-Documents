@@ -1,0 +1,302 @@
+%-------------------------
+% Entry-level Resume in LaTeX
+% Last Edits - July 19, 2021
+% Author : Jayesh Sanwal
+% Reach out to me on LinkedIn(/in/jsanwal), with any suggestions, ideas, etc.
+%------------------------
+
+%%-------------------------------------
+% Author Notes here -
+% 1) Change " Author+an = {N=highlight}" in "Publications.bib", where N is the number at which your name appears
+% 2) Use "\vspace" wisely, that would change spacing, and is currently being used as a hacky fix
+% 3) Do not delete the fonts in the left side
+% 4) Use the "Rich Text" feature on Overleaf - On the top panel next to source. Makes it much easier for starters on LaTeX to use this template
+% 5) Do NOT use periods at the end of bullet points, the sample (ipsum) text might have it
+% 6) Use "maxbibnames" on this file to change the maximum number of authors on the paper (Credits: Dr. Natasha Krell) - Default is 3, but change line 92 to add authors
+
+%%-------------------------------------
+% Changes from last version -
+% 1) Removed areas of Expertise as a separate section - integrated into the summary section
+% 2) Changed Focus to Academic Projects instead of Education
+% 3) Made the integrated summary 3 lines over 1
+% 4) Changed spacing between sections and bullets
+% 5) Changed the number of authors to be user customized
+
+%%-------------------------------------
+% Changes to be made here -
+% 1) Shift to Class file, make changes here
+% 2) Use a fonts folder
+% 3) Incorporate Leadership & volunteering together
+% 4) Remove \vspace based 'hacky' fixes
+%%-------------------------------------
+
+
+\documentclass[a4,10pt]{article}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  STARTING HERE, DO NOT TOUCH ANYTHING 
+%%%%%%% --------------------------------------------------------------------------------------
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+ \usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{tabularx}
+\hypersetup{colorlinks=true,urlcolor=black}
+\usepackage[11pt]{moresize}
+\usepackage{setspace}
+\usepackage{fontspec}
+\usepackage[inline]{enumitem}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\usepackage{anyfontsize}
+
+%%%% Set Margins
+\usepackage[margin=1cm, top=1cm]{geometry}
+
+%%%% Set Fonts
+\setmainfont[
+BoldFont=SourceSansPro-Semibold.otf, %SourceSansPro-Bold.otf
+ItalicFont=SourceSansPro-RegularIt.otf
+]{SourceSansPro-Regular.otf}
+\setsansfont{SourceSansPro-Semibold.otf}
+
+%%%% Set Page
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%%%% Set URL Style
+\urlstyle{same}
+
+%%%% Set Indentation
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%%%% Set Secondary Color
+\definecolor{UI_blue}{RGB}{32, 64, 151}
+
+%%%% Define New Commands
+\usepackage[style=nature, maxbibnames=3]{biblatex}
+% \addbibresource{Publications.bib}
+
+%%%% Bold Name in Publications
+\renewcommand*{\mkbibnamegiven}[1]{%
+\ifitemannotation{highlight}
+{\textbf{#1}}
+{#1}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+\ifitemannotation{highlight}
+{\textbf{#1}}
+{#1}}
+
+%%%% Set Sections formatting
+\titleformat{\section}{
+\color{UI_blue} \scshape \raggedright \large 
+}{}{0em}{}[\vspace{-10pt} \hrulefill \vspace{-6pt}]
+
+%%%% Set Subtext Formatting
+\newcommand{\subtext}[1]{
+#1\par\vspace{-0.2cm}}
+
+% \newcommand{\subtextit}[1]{\vspace{0.15cm}
+% \textit{ #1 \vspace{-0.2cm}} }
+
+%%%% Set Item Spacing
+\setlist[itemize]{align=parleft,left=0pt..1em}
+
+%%%% New Itemize "Zitemize" Formatting - tighter spacing than itemize
+\newenvironment{zitemize}{
+\begin{itemize}\itemsep0pt \parskip0pt \parsep1pt}
+{\end{itemize}\vspace{-0.5cm}}
+
+
+%%%% Define Skills Bold Formatting
+\newcommand{\hskills}[1]{
+\textbf{\bfseries #1} }
+
+%%%% Set Subsection formatting
+\titleformat{\subsection}{\vspace{-0.1cm} 
+\bfseries \fontsize{11pt}{2cm}}{}{0em}{}[\vspace{-0.2cm}]
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  END OF "DO NOT TOUCH" REGION
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%% --------------------------------------------------------------------------------------
+
+\begin{document}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  HEADER
+%%%%%%% --------------------------------------------------------------------------------------
+\begin{center}
+    \begin{minipage}[b]{0.24\textwidth}
+            \small Bloomington, Indiana \\
+            \small (812)-803-5167 \\
+            \small \href{mailto:srimanthagastyaraju.98@gmail.com}{srimanthagastyaraju.98@gmail.com}
+    \end{minipage}% 
+    \begin{minipage}[b]{0.5\textwidth}
+            \centering
+            {\HUGE Srimanth Agastyaraju} \\ %
+            \vspace{0.1cm}
+            {\color{UI_blue} \Large{<<TARGET-JOB>>}} \\
+    \end{minipage}% 
+    \begin{minipage}[b]{0.24\textwidth}
+            \flushright \small  %Willing to Relocate
+            {\href{https://mlzealot.github.io/}{mlzealot.github.io}} \\
+            {\href{https://www.linkedin.com/in/srimanthagastyaraju/}{linkedin.com/in/srimanthagastyaraju}} \\
+            \href{https://github.com/srimanth98}{github.com/srimanth98}
+    \end{minipage}   
+    
+\vspace{-0.15cm} 
+{\color{UI_blue} \hrulefill}
+\end{center}
+\vspace{-0.2cm}
+<<SUMMARY>>
+\vspace{-0.2cm}
+
+
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  EDUCATION
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Education }
+\subsection*{Master’s in Data Science, {\normalsize \normalfont Indiana University Bloomington} \hfill May 2023} 
+\vspace{0.1cm}
+\subsection*{Bachelor of Tech in Computer Science, {\normalsize \normalfont Sreenidhi Institute of Science and Technology (SNIST), CGPA: 9.58/10.00} \hfill May 2020} 
+\vspace{0.2cm}
+
+
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  SKILLS
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Skills}
+\begin{tabular}{p{11em} p{1em} p{43em}}
+\hskills{Languages:} &  & Native in Telugu, Fluent in Hindi and English. \\
+\hskills{Programming Languages:}&  &  Python, Java, C, C++, JavaScript (Angular, React, Node), SQL.  \\
+\hskills{Apps/Frameworks:} &  & Android Studio, Microsoft Office, Git, Dash (by Plotly).   \\
+\hskills{Certifications} &  & ‘Machine Learning’ on Coursera - Andrew NG. | ‘Problem Solving through Programming in C’ on NPTEL. | ‘Algorithmic Toolbox’ on Coursera. | ‘The Complete Android O Developer Course’ on Udemy. \\
+\end{tabular}
+\vspace{-0.2cm}
+
+
+
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  WORK EXPERIENCE
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Experience}
+
+%%% ----- Best way to write items (Credit - ResumePuppy.com)
+        % \item Developed AngularJS microservice to automate parsing of ~300 emails/day for efficient service request categorization using Linux MBox & Perl scripts; reduced manual re-allocation by 87%.
+        % \item Led the development, build and bring-up execution of Lyft’s first functional AV platform from start to finish; established fleet-grade product reliability over 5 months.
+        % \item Enhanced user experience by fine-tuning stored procedures & SQL queries for efficient data retrieval from ~4M records accessed by 5000+ users worldwide.
+        % \item Built a custom menu single handedly using HTML5, CSS3, XML and JSP and improved the performance of existing application by tuning the PL/SQL scripts by 20\% and reduced on-migration time.
+        
+
+%%%%%%% ----------------------------------- Role 1 ----------------------------------- %%%%%%%
+\subsection*{Full Stack Development Analyst \hfill Sep 2020 --- Apr 2021} 
+\subtext{Accenture Solutions Pvt. Ltd. \hfill Hyderabad, WFH} 
+    \begin{zitemize}
+        \item Streamlined a MEAN stack application for an analytics platform to automate reporting jobs.
+        \item Studied and implemented Full Stack Web Technologies such as MongoDB, Node.js, Express, Angular.js and React.js.
+        \item Utilized Spring MVC for developing a web application framework and JSP for web page rendering.
+    \end{zitemize}
+    
+%%%%%%% ----------------------------------- Role 2
+\subsection*{Software Development Intern \hfill Jan 2020 --- Jun 2020} 
+\subtext{WebileApps Pvt. Ltd. \hfill Hybrid Internship} 
+    \begin{zitemize}
+        \item Remodeled a Java-based Android application (VPay) to minimize bugs and follow MVVM architecture.
+        \item Developed a POC app for OCR and Image Recognition using Android SDKs to automate manual transcribing of pages.
+        \item Engineered a website using Spring Boot and PostgreSQL from the ground-up.
+    \end{zitemize}
+
+
+%%%%%%% ----------------------------------- Role 3 ----------------------------------- %%%%%%%
+\subsection*{AI Intern \hfill Jun 2019 --- Jul 2019} 
+\subtext{Sentritec Software Solutions (OPC). \hfill Remote Internship} 
+    \begin{zitemize}
+        \item Assisted in the development of a dashboard application using Python.
+        \item Made the dashboards human-readable and created documentation.
+    \end{zitemize}
+
+%%%%%%% ----------------------------------- Role 4 ----------------------------------- %%%%%%%
+\subsection*{App Developer Intern  \hfill May 2018 --- Jun 2018} 
+\subtext{Youth Empowerment Foundation \hfill Remote Internship} 
+    \begin{zitemize}
+        \item Prototyped Soft Skills app and YEF app.
+        \item Apps written in Android Studio using Java and XML.
+    \end{zitemize}
+
+
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  ACADEMIC PROJECTS
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Projects} %% (Or "Research", select as appropriate)
+
+%%% ----- Best way to write items (Credit - FAANGPath)
+        % \item Achieved X\% growth for XYZ using A, B, and C skills.
+        % \item Led XYZ which led to X\% of improvement in ABC
+        % \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+
+%%%%%%% ----------------------------------- Project 1 ----------------------------------- %%%%%%%
+\subsection*{Sentiment Analysis of YouTube Comments \hfill Jan 2020 --- Apr 2020} 
+    \begin{zitemize}
+        \item A sentiment analysis model developed using NLP techniques such as Stemming, tokenization, Word2Vec and a Logistic Regressor.
+        \item Has an accuracy of 78\% over novel data.
+    \end{zitemize}
+
+%%%%%%% ----------------------------------- Project 1 ----------------------------------- %%%%%%%
+\subsection*{Data Explorer \hfill Feb 2019 --- May 2019} 
+    \begin{zitemize}
+        \item An application which allows the user to read and clean a relational dataset, build plots off the dataset and allows the user to select the features and the ML algorithm based on the plot info. Developed using Dash by Plotly.
+    \end{zitemize}
+
+
+%%%%%%% ----------------------------------- Project 2 ----------------------------------- %%%%%%%
+\subsection*{Housing Prices Advanced \hfill May 2018 --- Jun 2018} 
+    \begin{zitemize}
+        \item Regression analysis of Iowa Housing dataset containing 80 features. 
+        \item Data cleaning, EDA, Feature Engineering and Model Fit. 
+    \end{zitemize}
+
+
+%%%%%%% ----------------------------------- Project 3 ----------------------------------- %%%%%%%
+\subsection*{Crypto Converter \hfill Apr 2017 – May 2017} 
+    \begin{zitemize}
+        \item An application which retrieves the JSON data from the web and shows the results with the help of a RecyclerView.
+    \end{zitemize}
+
+
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  ACTIVITIES
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Activities (Leadership) Experience}
+
+%%%%%% ----------------------------------- Role 6 ----------------------------------- %%%%%%%
+\subsection*{Technical Head {\normalsize \normalfont at the Emerging Computer’s Arena (ECA) club at SNIST.}} 
+\vspace{0.1cm}
+\subsection*{Mentored and coached {\normalsize \normalfont peers in Android app development.}} 
+\vspace{0.1cm}
+\subsection*{Co-organized {\normalsize \normalfont programming challenges at the ECA club, SNIST.}} 
+
+
+
+%%%%%%% ---------------------------- END DOC HERE ---------------------------- %%%%%%% 
+\end{document}
