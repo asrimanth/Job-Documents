@@ -1,0 +1,1 @@
+Familiar with pandas and scikit-learn. Sound knowledge of the math involved in Machine Learning. Implemented NLP techniques such as TF-IDF and Word2Vec. Swimming and graphic designing are the two things I do during my free time.

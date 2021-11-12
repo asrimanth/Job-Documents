@@ -1,0 +1,4 @@
+I have developed Android apps for the underprivileged, during my internship at the Youth Empowerment Foundation. 
+I have previously created applications for Android and web using Java and MEAN stack. 
+I also have previous experince in developing enterprise applications using Spring Boot, Hibernate and PostgreSQL. 
+I hope to bring my skills to the table in order to help the people around me, and societies in general.

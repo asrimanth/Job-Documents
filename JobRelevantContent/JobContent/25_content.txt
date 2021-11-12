@@ -1,0 +1,3 @@
+I am confident in my abilities as a presenter, since when I was a technical head presenting my knowledge to a broad non-technical audience. 
+My past work includes digesting the data and output the insights to a user-friendly dashboard, created using Python and SQL. 
+Introduction to Statistics and Applied Machine Learning, two of the courses I am currently enrolled in, cover statistics such as regressions, distibutions, A/B testing, and statistical modeling in detail.

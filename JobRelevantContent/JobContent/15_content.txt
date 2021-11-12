@@ -1,0 +1,5 @@
+My past work includes digesting the data and output the insights to a user-friendly dashboard, created using Python and SQL. 
+I am currently enrolled in the course Applied Machine Learning, which enables me to further understand the intricacies of ML algorithms. 
+I have also worked with AWS before, where I ran a parse server for a simple social media clone application. 
+My interest in <<COMPANY>> began when I found out that <<COMPANY>> uses lava lamps for seed selection in Pseudo Random Number generators, which is amazing, considering the fact that 10 percent of internet traffic is handled by <<COMPANY>>. 
+I would love to work at <<COMPANY>> and use my abilities at the fullest to help make internet a better place. 

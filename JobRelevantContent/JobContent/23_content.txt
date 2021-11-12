@@ -1,0 +1,5 @@
+My past work includes digesting the data and output the insights to a user-friendly dashboard, created using Python and SQL. 
+I am currently enrolled in the course Applied Machine Learning, which enables me to further understand the intricacies of ML algorithms.
+It also enables me to write production-level code for Machine Learning. 
+Another course, titled Elements of AI, is a challenging course, which explores the probabilistic aspects of AI including Bayesian networks and Hidden Markov models. 
+Also, during my undergraduate studies, I have taken up a project in the field of Natural Language processing.

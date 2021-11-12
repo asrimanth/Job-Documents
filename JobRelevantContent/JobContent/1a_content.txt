@@ -1,0 +1,7 @@
+<<COMPANY>> is an amazing initiative to analyze audio and speech data. 
+I find natural language quite fascinating, since it is complicated for machines to understand, but our human brain parses it quite intuitively. 
+My past work includes projects in Natural Language Processing. As a result, I am familiar with NLP pre-processing techniques, knowledge representation and prediction using machine learning.
+For example, I have previously implemented, Stemming, Tokenization, cosine similarity, logistic regression etc. just to name a few. 
+I believe these are related to the project Subjective Speech Assessment Prediction, which I found quite interesting. 
+I am currently enrolled in the course Applied Machine Learning, which enables me to further understand the intricacies of ML algorithms.
+I would love to contribute to <<COMPANY>>, especially in the Machine Learning aspect of the project. 

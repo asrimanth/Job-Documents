@@ -1,0 +1,5 @@
+My past work includes digesting the data and output the insights to a user-friendly dashboard, created using Python and SQL. 
+I am currently enrolled in the course Applied Machine Learning, which enables me to further understand the intricacies of ML algorithms. 
+I have also worked with AWS before, where I ran a parse server for a simple social media clone application. 
+I am also familiar with MEAN/MERN stack application development, due to my previous experience as a Full Stack Developer.
+I would love to work at <<COMPANY>> and use my abilities at the fullest to help make enterprise space a better place. 

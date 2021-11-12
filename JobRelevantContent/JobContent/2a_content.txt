@@ -1,0 +1,10 @@
+I find natural language quite fascinating, since it is complicated for machines to understand, but our human brain parses it quite intuitively. 
+My past work includes projects in Natural Language Processing. As a result, I am familiar with NLP pre-processing techniques, knowledge representation and prediction using machine learning.
+
+I am currently enrolled in the course Applied Machine Learning, which enables me to further understand the intricacies of ML algorithms.
+Another course, titled Elements of AI, is a challenging course, which explores the probabilistic aspects of AI including Bayesian networks and Hidden Markov models. 
+
+During my full-time job as a full-stack developer at Accenture, I was introduced to working in a fast-paced, collaborative environment. 
+As a result, I am well-versed in MEAN/MERN stack application development and collaborative methods and enterprise tools such as GitHub, JIRA etc. 
+
+To summarize all of the above, I believe my abilities in application development as well as Machine Learning enables me to deploy machine learning applications into production.
